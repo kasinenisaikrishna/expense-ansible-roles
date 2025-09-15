@@ -1,2 +1,2 @@
 mysql_root_password: Expense@App1
-login_host: backend.dawsconnect.org
+login_host: mysql.dawsconnect.org
