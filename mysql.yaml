@@ -1,7 +1,7 @@
 - name: configure mysql server
   hosts: mysql
-  become: yes
+  become: yes #To get admin access in remote Linux server
   vars_files:
-  - /var/expense/credentails_mysql.yaml
+  - /var/expense/credentails_mysql.yaml #This file is in ansible server hence we should change the permission of the file
   roles:
   - mysql
